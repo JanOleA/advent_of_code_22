@@ -103,5 +103,5 @@ fn main() {
     let crates = fs::read_to_string("input.txt").expect("Error reading file");
 
     part1(&crates);
-    part2(&crates)
+    part2(&crates);
 }
